@@ -6,11 +6,11 @@ const subtract = (a, b) => {
   return a - b;
 };
 
-const multiplay = (a, b) => {
+const multiply = (a, b) => {
   return a * b;
 };
 
-const add = (a, b) => {
+const divide = (a, b) => {
   if (b === 0) {
     throw new Error();
   }
